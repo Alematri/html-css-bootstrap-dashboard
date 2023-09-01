@@ -8,3 +8,24 @@
   --red: #dc3545;
   --grey: #6c757d;
 }
+
+/* GENERAL */
+
+.app{
+  height: 100vh;
+}
+
+nav{
+  z-index: 1;
+  height: 90px;
+  max-height: 90px;
+  width: 100%;
+  overflow: hidden;
+}
+
+aside{
+  max-height: calc(100vh - 90px);
+  height: 100%;
+  max-width: 100px;
+  padding-top: 90px;
+}
