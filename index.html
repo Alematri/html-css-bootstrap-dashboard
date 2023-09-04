@@ -21,68 +21,81 @@
 
   <div class="app">
 
-    <header>
+    <!-- NAVBAR -->
+    <header class="d-flex align-items-center">
       <div class="container-sc">
-        <div class="row">
+        <div class="row align-items-center h-100">
 
-          <div class="col-1 d-lg-none">
-            <a href="#"><img id="mobilelogo" src="./img/mobile-logo.png" alt="#"></a>
+          <div class="col-2 d-lg-none">
+            <a href="#"><img class="ms-3" id="mobilelogo" src="./img/mobile-logo.png" alt="#"></a>
           </div>
 
-          <div class="col-1 d-none d-lg-block">
-            <a href="#"><img src="./img/logo.svg" alt="#"></a>
+          <div class="col-2 d-none d-lg-block">
+            <a href="#"><img class="ps-2" src="./img/logo.svg" alt="#"></a>
           </div>
 
-          <div class="col-10">
+          <div class="col-8">
             <form>
              <input class="form-control" placeholder="Prova a cercare: Lezioni di Laravel">
             </form>
           </div>
 
-          <div class="col-1">
-            <div class="row d-none flex-nowrap d-lg-flex">
+          <div class="col-2 d-none flex-nowrap d-lg-flex justify-content-end">
+            <a href=""><i class="mx-2 fa-solid fa-list"></i></a>
+            <a href=""><i class="mx-2 fa-solid fa-circle-question"></i></a>
+            <a href=""><i class="mx-2 fa-solid fa-ellipsis-vertical"></i></a>
+            <a href=""><i class="mx-2 fa-solid fa-bell"></i></a>
+          </div>
 
-              <div class="col">
-                <i class="fa-solid fa-list"><a href="#"></a></i>
-              </div>
-              <div class="col">
-                <i class="fa-solid fa-circle-question"><a href="#"></a></i>
-              </div>
-              <div class="col">
-                <i class="fa-solid fa-ellipsis-vertical"><a href="#"></a></i>
-              </div>
-              <div class="col">
-                <i class="fa-solid fa-bell"><a href="#"></a></i>
-              </div>
-            </div>
-
-            <div class="col-1 d-lg-none">
-              <i class="fa-solid fa-bell"><a href="#"></a></i>
-            </div>
-
+          <div class="col-2 d-lg-none d-flex justify-content-center">
+            <a href=""><i id="goldenbell" class="fa-solid fa-bell"></i></a>
           </div>
 
         </div>
       </div>
-
-  
-
-
-    
-      
     </header>
 
+    <!-- SIDEBAR -->
+    <aside>
 
-   <aside class="flex-column ">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, numquam!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, numquam!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, numquam!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, numquam!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, numquam!</p>
-   </aside>
+      <div class="container-fluid">
+
+        <div class="row text-center">
+          <div class="col-12 col-lg-4 mt-2"><i class="fa-solid fa-house"></i></div>
+          <div class="d-none d-lg-flex col-lg-8 mt-2"><span>Home</span></div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12 col-lg-4 mt-2"><i class="fa-solid fa-chart-simple"></i></div>
+          <div class="d-none d-lg-flex col-lg-8 mt-2"><span>Stats</span></div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12 col-lg-4 mt-2"><i class="fa-solid fa-signal"></i></div>
+          <div class="d-none d-lg-flex col-lg-8 mt-2">Signals</div>
+        </div>
+
+        <div class="row d-flex align-items-end justify-content-end text-center">
+          <div class="col-12 col-lg-4 mt-2"><i class="fa-solid fa-gear"></i></div>
+          <div class="d-none d-lg-flex col-lg-8 mt-2">Admin</div>
+        </div>
+
+      </div>
+
+    </aside>
 
     <main>
-      <section class="boolean"></section>
+      <!-- <section class="boolean">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="d-none d-lg-flex col-lg-4">Boolean</div>
+            <div class="d-none d-md-flex col-md-4 d-xl-none">Boolean</div>
+            <div class="d-none d-md-flex col-md-4">Studenti online negli ultimi 30 minuti</div>
+            <div class="d-none d-md-flex col-md-4">Nuovo Studente</div>
+          </div>
+        </div>
+      </section> -->
+
       <section class="class"></section>
       <section class="todo"></section>
       <section class="faq"></section>
