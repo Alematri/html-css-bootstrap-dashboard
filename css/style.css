@@ -17,6 +17,19 @@
 
 /* GENERAL */
 
+*{
+  list-style: none;
+  text-decoration: ;
+}
+
+* a{
+  text-decoration: none;
+}
+
+ul{
+  margin: 0 auto;
+}
+
 .app{
   height: 100vh;
 }
@@ -30,6 +43,11 @@ header{
   background-color: var(--light-grey);
 }
 
+main{
+  max-height: calc(100vh - 70px);
+  width: 100vh;
+}
+
 aside{
   max-height: calc(100vh - 70px);
   height: 100%;
@@ -38,6 +56,15 @@ aside{
   background-color: var(--dark-blue);
   color: white;
 }
+
+/* .content{
+  max-height: calc(100vh - 70px);
+  height: 100%;
+  width: calc(100vh - 70px);
+  padding-top: 30px;
+  background-color: var(--grey);
+  color: white;
+} */
 
 .container-sc{
   min-width: 100%;
@@ -63,11 +90,10 @@ header a:hover{
   background-color: var(--grey);
 }
 
-/* .boolean{
-  background-color: var(--blue);
+aside ul li a{
   color: white;
-  width: calc(100vh - 70px);
-} */
+}
+
 
 @media (min-width: 992px) {
   aside {
