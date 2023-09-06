@@ -17,9 +17,9 @@
 
 /* GENERAL */
 
+
 *{
   list-style: none;
-  text-decoration: ;
 }
 
 * a{
@@ -43,28 +43,23 @@ header{
   background-color: var(--light-grey);
 }
 
-main{
-  max-height: calc(100vh - 70px);
-  width: 100vh;
-}
-
 aside{
   max-height: calc(100vh - 70px);
-  height: 100%;
+  height: 100vh;
   width: 70px;
   padding-top: 30px;
   background-color: var(--dark-blue);
   color: white;
 }
 
-/* .content{
+.content{
   max-height: calc(100vh - 70px);
-  height: 100%;
-  width: calc(100vh - 70px);
+  height: 100vh;
+  width: 100%;
   padding-top: 30px;
-  background-color: var(--grey);
+  background-color: var(--green);
   color: white;
-} */
+}
 
 .container-sc{
   min-width: 100%;
@@ -94,9 +89,15 @@ aside ul li a{
   color: white;
 }
 
+/* .boolean{
+  background-color: var(--blue);
+  color: white;
+  width: calc(100vh - 70px);
+} */
 
 @media (min-width: 992px) {
   aside {
     width: 140px;
   }
+
 }
