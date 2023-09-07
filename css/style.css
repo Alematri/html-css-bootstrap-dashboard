@@ -43,20 +43,20 @@ header{
   background-color: var(--light-grey);
 }
 
-aside{
+main{
   max-height: calc(100vh - 70px);
   height: 100vh;
+}
+
+aside{
   width: 70px;
-  padding-top: 30px;
   background-color: var(--dark-blue);
   color: white;
+  padding-top: 30px;
 }
 
 .content{
-  max-height: calc(100vh - 70px);
-  height: 100vh;
   width: 100%;
-  padding-top: 30px;
   background-color: var(--green);
   color: white;
 }
@@ -64,6 +64,12 @@ aside{
 .container-sc{
   min-width: 100%;
   background-color: white;
+}
+
+.boolean{
+  width: 100%;
+  background-color: var(--sky);
+  color: white;
 }
 
 #mobilelogo{
@@ -87,6 +93,32 @@ header a:hover{
 
 aside ul li a{
   color: white;
+}
+
+/* MAIN */
+
+.boolean a{
+  color: white;
+}
+
+.boolean .n-s{
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.boolean .new-student a{
+  font-size: 4rem;
+}
+
+.boolean .s-s{
+  font-size: 1.8rem;
+}
+
+.btn{
+  font-size: 1rem;
+  border: 1px solid var(--blue);
+  border-radius: 50px;
+  background-color: var(--blue);
 }
 
 /* .boolean{
