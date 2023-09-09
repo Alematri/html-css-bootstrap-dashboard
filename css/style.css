@@ -59,6 +59,10 @@ aside{
   overflow: auto;
 }
 
+.content .row{
+  margin: 0 auto;
+}
+
 .container-sc{
   min-width: 100%;
   background-color: white;
@@ -148,30 +152,8 @@ aside ul li a{
   background-color: var(--light-grey);
 }
 
-.class .done{
-  color: white;
+.class .badge{
   font-size: 0.7rem;
-  border-radius: 15px;
-  background-color: var(--green);
-  border: 0px solid var(--green);
-}
-
-.class .process{
-  color: white;
-  font-size: 0.7rem;
-  border-radius: 15px;
-  background-color: var(--yellow);
-  border: 0px solid var(--yellow);
-  padding-right: 2px;
-  padding-left: 2px;
-}
-
-.class .failed{
-  color: white;
-  font-size: 0.7rem;
-  border-radius: 15px;
-  background-color: var(--red);
-  border: 0px solid var(--red);
 }
 
 .class a .fa-pen,
@@ -181,10 +163,6 @@ aside ul li a{
   border-radius: 3px;
   font-size: 0.8rem;
   padding: 3px;
-}
-
-.faq a{
-  color: var(--grey);
 }
 
 .users a{
