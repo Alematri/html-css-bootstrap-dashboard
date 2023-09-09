@@ -9,12 +9,6 @@
   --grey: #6c757d;
 }
 
-/* [class^="col"]{
-  background-color: rgba(0, 0, 0, .2);
-  border: 1px solid black;
-} */
-
-
 /* GENERAL */
 
 
@@ -53,12 +47,16 @@ aside{
   background-color: var(--dark-blue);
   color: white;
   padding-top: 30px;
+  background-image: url('./img/sidebar-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .content{
   width: 100%;
-  background-color: var(--green);
+  background-color: var(--light-grey);
   color: white;
+  overflow: auto;
 }
 
 .container-sc{
@@ -102,34 +100,100 @@ aside ul li a{
 }
 
 .boolean .n-s{
-  font-size: 1.5rem;
-  font-weight: 100;
-}
-
-.boolean .new-student a{
-  font-size: 4rem;
+  font-size: 1.2rem;
+  white-space: nowrap;
 }
 
 .boolean .s-s{
-  font-size: 1.8rem;
+  font-size: 2rem;
+}
+
+.boolean .new-student i{
+  font-size: 3rem;
 }
 
 .btn{
-  font-size: 1rem;
+  font-size: 0.7rem;
   border: 1px solid var(--blue);
-  border-radius: 50px;
+  border-radius: 40px;
   background-color: var(--blue);
+  padding: 1px 3px 1px 3px;
+  white-space: nowrap;
 }
 
-/* .boolean{
-  background-color: var(--blue);
+.new-student{
+  order: 3;
+}
+
+.online-student{
+  order: 2;
+}
+
+.boolean-apps{
+  order: 1;
+}
+
+/* SECTION CLASS */
+
+.class img{
+  height: 25px;
+}
+
+.class li{
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.class .card-header{
+  background-color: var(--light-grey);
+}
+
+.class .done{
   color: white;
-  width: calc(100vh - 70px);
-} */
+  font-size: 0.7rem;
+  border-radius: 15px;
+  background-color: var(--green);
+  border: 0px solid var(--green);
+}
+
+.class .process{
+  color: white;
+  font-size: 0.7rem;
+  border-radius: 15px;
+  background-color: var(--yellow);
+  border: 0px solid var(--yellow);
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.class .failed{
+  color: white;
+  font-size: 0.7rem;
+  border-radius: 15px;
+  background-color: var(--red);
+  border: 0px solid var(--red);
+}
+
+.class a .fa-pen,
+.class a .fa-trash{
+  color: var(--grey);
+  border: 1px solid var(--grey);
+  border-radius: 3px;
+  font-size: 0.8rem;
+  padding: 3px;
+}
+
+.faq a{
+  color: var(--grey);
+}
+
+.users a{
+  text-decoration: underline;
+  color: #1b72e8;
+}
 
 @media (min-width: 992px) {
   aside {
     width: 140px;
   }
-
 }
