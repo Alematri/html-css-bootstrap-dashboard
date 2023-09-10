@@ -20,10 +20,6 @@
   text-decoration: none;
 }
 
-ul{
-  margin: 0 auto;
-}
-
 .app{
   height: 100vh;
 }
@@ -77,7 +73,6 @@ aside{
 #mobilelogo{
   width: 40px;
   height: 40px;
-  
 }
 
 header a{
@@ -93,9 +88,42 @@ header a:hover{
   background-color: var(--grey);
 }
 
-aside ul li a{
+aside a{
   color: white;
 }
+
+aside .button-sx .d-flex{
+  padding: 7px;
+}
+
+aside .button-sx .d-flex:hover{
+  background-color: var(--grey);
+}
+
+.button-sx{
+  margin: 0 auto;
+}
+
+
+#btn-cs{
+  background-color: var(--sky);
+  font-size: 30px;
+  padding-bottom: 3px;
+  padding-right: 13px;
+  padding-left: 13px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+}
+
+.actions li .btn{
+  padding: 2px 6px 2px 6px;
+}
+
+.actions li .btn:last-child{
+  padding: 2px 7px 2px 7px;
+}
+
 
 /* MAIN */
 
@@ -116,7 +144,7 @@ aside ul li a{
   font-size: 3rem;
 }
 
-.btn{
+.boolean .boolean-apps .btn{
   font-size: 0.7rem;
   border: 1px solid var(--blue);
   border-radius: 40px;
@@ -135,6 +163,12 @@ aside ul li a{
 
 .boolean-apps{
   order: 1;
+}
+
+.offcanvas-body .bg-yellow{
+  background-color: var(--yellow);
+  color: black;
+  border: 1px solid var(--yellow);
 }
 
 /* SECTION CLASS */
