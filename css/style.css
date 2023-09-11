@@ -25,7 +25,6 @@
 }
 
 header{
-  z-index: 1;
   height: 70px;
   max-height: 70px;
   width: 100%;
@@ -43,7 +42,7 @@ aside{
   background-color: var(--dark-blue);
   color: white;
   padding-top: 30px;
-  background-image: url('./img/sidebar-bg.png');
+  background-image: url('../img/sidebar-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -84,8 +83,15 @@ header a:hover{
   color: var(--yellow);
 }
 
-.form{
-  background-color: var(--grey);
+header .search-button input{
+  background-color: var(--light-grey);
+  border: 6px solid white;
+}
+
+header .search-button span{
+  background-color: var(--light-grey);
+  border: 6px solid white;
+  border-right: none;
 }
 
 aside a{
